@@ -1,5 +1,5 @@
-# System update for Debian/Ubuntu and reboot if necessary.
 ---
+
 - name: Check for new packages 
   command: /usr/lib/update-notifier/apt-check --package-names
   register: packages
